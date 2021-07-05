@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.orange-color{
+    color: orange;
+    font-size: 60px;
+}
+.flexible{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.about-us{
+    width: 50%;
+    padding: 5%;
+}
+.salmon{
+    color: salmon;
+    font-size: 40px;
+}
+.experience{
+    color: orange;
+    padding-left: 5%;
+    font-size: 2em;
+}
+.box{
+    display: flex;
+    margin-bottom: 100px;
+}
+.border-box{
+    width: 40%;
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+}
+#basic{
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon, orange);
+    border-image-slice: 1;
+}
+#advance{
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+    border-radius: 10px;
+
+}
+footer{
+    text-align: center;
+}
