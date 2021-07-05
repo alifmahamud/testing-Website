@@ -40,6 +40,14 @@ body{
     margin-right: 5%;
     box-shadow: 10px 10px 40px grey;
 }
+.box-header{
+    color: orange;
+    font-size: 3em;
+}
+.box-title{
+    font-size: 1.7em;
+    color: salmon;
+}
 #basic{
     border-left: 10px solid;
     border-image: linear-gradient(salmon, orange);
@@ -49,9 +57,11 @@ body{
     border-left: 10px solid;
     border-image: linear-gradient(tomato, orange);
     border-image-slice: 1;
-    border-radius: 10px;
 
 }
 footer{
     text-align: center;
+    color: salmon;
+    font-size: 2em;
+    margin-bottom: 50px;
 }
